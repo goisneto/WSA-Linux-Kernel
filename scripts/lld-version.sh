@@ -13,7 +13,7 @@ if ! ( echo $linker_string | grep -q LLD ); then
 	exit 1
 fi
 
-VERSION=$(echo $linker_string | cut -d ' ' -f 2)
+VERSION=$(echo $linker_string | sed -r 's/^[^0-9]*([0-9\.]*).*/\1/g')
 MAJOR=$(echo $VERSION | cut -d . -f 1)
 MINOR=$(echo $VERSION | cut -d . -f 2)
 PATCHLEVEL=$(echo $VERSION | cut -d . -f 3)

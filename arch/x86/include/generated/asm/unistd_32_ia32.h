@@ -432,7 +432,6 @@
 #define __NR_ia32_faccessat2 439
 #define __NR_ia32_process_madvise 440
 #define __NR_ia32_process_mrelease 448
-
 #ifdef __KERNEL__
 #define __NR_ia32_syscall_max 448
 #endif

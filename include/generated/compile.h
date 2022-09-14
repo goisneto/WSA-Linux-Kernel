@@ -1,7 +1,7 @@
-/* This file is auto generated, version 1 */
-/* SMP PREEMPT */
+/* This file is auto generated, version 6 */
+/* SMP */
 #define UTS_MACHINE "x86_64"
-#define UTS_VERSION "#1 SMP PREEMPT Wed Mar 30 17:16:51 UTC 2022"
-#define LINUX_COMPILE_BY "apais"
-#define LINUX_COMPILE_HOST "apais-vm1"
-#define LINUX_COMPILER "Ubuntu clang version 12.0.1-++20211102090516+fed41342a82f-1~exp1~20211102211019.11, Ubuntu LLD 12.0.1"
+#define UTS_VERSION "#6 SMP Wed Sep 14 04:52:04 -03 2022"
+#define LINUX_COMPILE_BY "root"
+#define LINUX_COMPILE_HOST "GN-PC"
+#define LINUX_COMPILER "gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.38"

@@ -1356,13 +1356,13 @@ include/config/auto.conf: \
 ifneq "$(ARCH)" "x86"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(KERNELVERSION)" "5.10.81-windows-subsystem-for-android-20220328"
+ifneq "$(KERNELVERSION)" "5.10.66-windows-subsystem-for-android-20220323"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC)" "clang"
+ifneq "$(CC)" "gcc"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(LD)" "ld.lld"
+ifneq "$(LD)" "ld"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(SRCARCH)" "x86"
@@ -1371,25 +1371,19 @@ endif
 ifneq "$(KBUILD_DEFCONFIG)" "x86_64_defconfig"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC_VERSION_TEXT)" "Ubuntu clang version 12.0.1-++20211102090516+fed41342a82f-1~exp1~20211102211019.11"
+ifneq "$(CC_VERSION_TEXT)" "gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(srctree)" "."
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CLANG_FLAGS)" " -no-integrated-as -Werror=unknown-warning-option"
+ifneq "$(NM)" "nm"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(NM)" "llvm-nm"
+ifneq "$(OBJCOPY)" "objcopy"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(OBJCOPY)" "llvm-objcopy"
-include/config/auto.conf: FORCE
-endif
-ifneq "$(LLVM)" "1"
-include/config/auto.conf: FORCE
-endif
-ifneq "$(AR)" "llvm-ar"
+ifneq "$(AR)" "ar"
 include/config/auto.conf: FORCE
 endif
 
