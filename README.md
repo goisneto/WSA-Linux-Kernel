@@ -13,7 +13,7 @@ This repository uses GitHub Actions to automatically build kernel images from so
 - x86_64
 - arm64
 
- [![WSA Kernel Build (Superuser)](https://github.com/WSA-Community/WSA-Linux-Kernel/actions/workflows/build_kernelsu.yml/badge.svg)](https://github.com/WSA-Community/WSA-Linux-Kernel/actions/workflows/build_kernelsu.yml)
+[![WSA Kernel Build (Superuser)](https://github.com/goisneto/WSA-Linux-Kernel/actions/workflows/build_kernelsu.yml/badge.svg)](https://github.com/goisneto/WSA-Linux-Kernel/actions/workflows/build_kernelsu.yml)
 - X86_64 - Superuser
 - arm64 - Superuser
 
